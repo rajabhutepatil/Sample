@@ -1,0 +1,214 @@
+<VisualStudioProject>
+    <CSHARP
+        ProjectType = "Web"
+        ProductVersion = "7.10.3077"
+        SchemaVersion = "2.0"
+        ProjectGuid = "{534D6DF7-68FA-4755-8592-817147ED824E}"
+    >
+        <Build>
+            <Settings
+                ApplicationIcon = ""
+                AssemblyKeyContainerName = ""
+                AssemblyName = "rcapi_cs_add_parameter"
+                AssemblyOriginatorKeyFile = ""
+                DefaultClientScript = "JScript"
+                DefaultHTMLPageLayout = "Grid"
+                DefaultTargetSchema = "IE50"
+                DelaySign = "false"
+                OutputType = "Library"
+                PreBuildEvent = ""
+                PostBuildEvent = ""
+                RootNamespace = "rcapi_cs_add_parameter"
+                RunPostBuildEvent = "OnBuildSuccess"
+                StartupObject = ""
+            >
+                <Config
+                    Name = "Debug"
+                    AllowUnsafeBlocks = "false"
+                    BaseAddress = "285212672"
+                    CheckForOverflowUnderflow = "false"
+                    ConfigurationOverrideFile = ""
+                    DefineConstants = "DEBUG;TRACE"
+                    DocumentationFile = ""
+                    DebugSymbols = "true"
+                    FileAlignment = "4096"
+                    IncrementalBuild = "false"
+                    NoStdLib = "false"
+                    NoWarn = ""
+                    Optimize = "false"
+                    OutputPath = "bin\"
+                    RegisterForComInterop = "false"
+                    RemoveIntegerChecks = "false"
+                    TreatWarningsAsErrors = "false"
+                    WarningLevel = "4"
+                />
+                <Config
+                    Name = "Release"
+                    AllowUnsafeBlocks = "false"
+                    BaseAddress = "285212672"
+                    CheckForOverflowUnderflow = "false"
+                    ConfigurationOverrideFile = ""
+                    DefineConstants = "TRACE"
+                    DocumentationFile = ""
+                    DebugSymbols = "false"
+                    FileAlignment = "4096"
+                    IncrementalBuild = "false"
+                    NoStdLib = "false"
+                    NoWarn = ""
+                    Optimize = "true"
+                    OutputPath = "bin\"
+                    RegisterForComInterop = "false"
+                    RemoveIntegerChecks = "false"
+                    TreatWarningsAsErrors = "false"
+                    WarningLevel = "4"
+                />
+            </Settings>
+            <References>
+                <Reference
+                    Name = "System"
+                    AssemblyName = "System"
+                    HintPath = "..\..\..\WINDOWS\Microsoft.NET\Framework\v1.1.4322\System.dll"
+                />
+                <Reference
+                    Name = "System.Drawing"
+                    AssemblyName = "System.Drawing"
+                    HintPath = "..\..\..\WINDOWS\Microsoft.NET\Framework\v1.1.4322\System.Drawing.dll"
+                />
+                <Reference
+                    Name = "System.Data"
+                    AssemblyName = "System.Data"
+                    HintPath = "..\..\..\WINDOWS\Microsoft.NET\Framework\v1.1.4322\System.Data.dll"
+                />
+                <Reference
+                    Name = "System.Web"
+                    AssemblyName = "System.Web"
+                    HintPath = "..\..\..\WINDOWS\Microsoft.NET\Framework\v1.1.4322\System.Web.dll"
+                />
+                <Reference
+                    Name = "System.XML"
+                    AssemblyName = "System.Xml"
+                    HintPath = "..\..\..\WINDOWS\Microsoft.NET\Framework\v1.1.4322\System.XML.dll"
+                />
+                <Reference
+                    Name = "CrystalDecisions.Enterprise.InfoStore"
+                    AssemblyName = "CrystalDecisions.Enterprise.InfoStore"
+                    HintPath = "..\..\..\Program Files\Business Objects\common\3.5\managed\CrystalDecisions.Enterprise.InfoStore.dll"
+                    AssemblyFolderKey = "hklm\crystal.net"
+                />
+                <Reference
+                    Name = "CrystalDecisions.Enterprise.Framework"
+                    AssemblyName = "CrystalDecisions.Enterprise.Framework"
+                    HintPath = "..\..\..\Program Files\Business Objects\common\3.5\managed\CrystalDecisions.Enterprise.Framework.dll"
+                    AssemblyFolderKey = "hklm\crystal.net"
+                />
+                <Reference
+                    Name = "CrystalDecisions.Web"
+                    AssemblyName = "CrystalDecisions.Web"
+                    HintPath = "..\..\..\Program Files\Business Objects\common\3.5\managed\CrystalDecisions.Web.dll"
+                    AssemblyFolderKey = "hklm\crystal.net"
+                />
+                <Reference
+                    Name = "System.Web.Services"
+                    AssemblyName = "System.Web.Services"
+                    HintPath = "..\..\..\WINDOWS\Microsoft.NET\Framework\v1.1.4322\System.Web.Services.dll"
+                />
+                <Reference
+                    Name = "CrystalDecisions.ReportAppServer.Controllers"
+                    AssemblyName = "CrystalDecisions.ReportAppServer.Controllers"
+                    HintPath = "..\..\..\Program Files\Business Objects\common\3.5\managed\CrystalDecisions.ReportAppServer.Controllers.dll"
+                    AssemblyFolderKey = "hklm\crystal.net"
+                />
+                <Reference
+                    Name = "CrystalDecisions.Enterprise"
+                    AssemblyName = "CrystalDecisions.Enterprise"
+                    HintPath = "..\..\..\Program Files\Business Objects\common\3.5\managed\CrystalDecisions.Enterprise.dll"
+                    AssemblyFolderKey = "hklm\crystal.net"
+                />
+                <Reference
+                    Name = "CrystalDecisions.ReportAppServer.ClientDoc"
+                    AssemblyName = "CrystalDecisions.ReportAppServer.ClientDoc"
+                    HintPath = "..\..\..\Program Files\Business Objects\common\3.5\managed\CrystalDecisions.ReportAppServer.ClientDoc.dll"
+                    AssemblyFolderKey = "hklm\crystal.net"
+                />
+                <Reference
+                    Name = "CrystalDecisions.ReportAppServer.DataDefModel"
+                    AssemblyName = "CrystalDecisions.ReportAppServer.DataDefModel"
+                    HintPath = "..\..\..\Program Files\Business Objects\common\3.5\managed\CrystalDecisions.ReportAppServer.DataDefModel.dll"
+                    AssemblyFolderKey = "hklm\crystal.net"
+                />
+                <Reference
+                    Name = "CrystalDecisions.ReportAppServer.ReportDefModel"
+                    AssemblyName = "CrystalDecisions.ReportAppServer.ReportDefModel"
+                    HintPath = "..\..\..\Program Files\Business Objects\common\3.5\managed\CrystalDecisions.ReportAppServer.ReportDefModel.dll"
+                    AssemblyFolderKey = "hklm\crystal.net"
+                />
+            </References>
+        </Build>
+        <Files>
+            <Include>
+                <File
+                    RelPath = "default.aspx"
+                    SubType = "Form"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "default.aspx.cs"
+                    DependentUpon = "default.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "default.aspx.resx"
+                    DependentUpon = "default.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "README.txt"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "SimpleRCAPIReport.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "SimpleRCAPIReport.cs"
+                />
+                <File
+                    RelPath = "SimpleRCAPIReport.cs"
+                    DependentUpon = "SimpleRCAPIReport.rpt"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "style.css"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Viewer.aspx"
+                    SubType = "Form"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Viewer.aspx.cs"
+                    DependentUpon = "Viewer.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Viewer.aspx.resx"
+                    DependentUpon = "Viewer.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Web.config"
+                    BuildAction = "Content"
+                />
+            </Include>
+        </Files>
+        <StartupServices>
+            <Service ID = "{5AD368F8-9AD3-4E4C-97D8-1F4F1C124158}" />
+        </StartupServices>
+    </CSHARP>
+</VisualStudioProject>
+

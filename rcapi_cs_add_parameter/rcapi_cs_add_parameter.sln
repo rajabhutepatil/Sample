@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "rcapi_cs_add_parameter", "http://localhost/rcapi_cs_add_parameter/rcapi_cs_add_parameter.csproj", "{534D6DF7-68FA-4755-8592-817147ED824E}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{534D6DF7-68FA-4755-8592-817147ED824E}.Debug.ActiveCfg = Debug|.NET
+		{534D6DF7-68FA-4755-8592-817147ED824E}.Debug.Build.0 = Debug|.NET
+		{534D6DF7-68FA-4755-8592-817147ED824E}.Release.ActiveCfg = Release|.NET
+		{534D6DF7-68FA-4755-8592-817147ED824E}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal
